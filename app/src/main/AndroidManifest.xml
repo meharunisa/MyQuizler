@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.assorttech.myquizler">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Classes.Ninth" />
+        <activity android:name=".Classes.Tenth" />
+        <activity android:name=".Classes.FirstYear" />
+        <activity android:name=".Classes.SecondYear" />
+        <activity android:name=".NinthSubjects.NinthPhysics" />
+        <activity android:name=".NinthPhysicsQuizType.NinthHalfFirstHalf" />
+        <activity android:name=".NinthPhysicsQuizType.NinthSecondHalf" />
+        <activity android:name=".NinthPhysicsQuizType.NinthFullBook" />
+        <activity android:name=".NinthPhysicsQuizType.NinthPastPapers" />
+        <activity android:name=".NinthSubjects.NinthChemistry" />
+        <activity android:name=".NinthChemistryQuizType.NinthChemistryFullBook" />
+        <activity android:name=".NinthChemistryQuizType.NinthChemistryFirstHalf" />
+        <activity android:name=".NinthChemistryQuizType.NinthChemistrySecondHalf" />
+        <activity android:name=".NinthChemistryQuizType.NinthChemistryPastPapers" />
+        <activity android:name=".FirstYearComplete.FirstYearSubjects.FirstYearChemistry" />
+        <activity android:name=".TenthComplete.TenthSubjects.TenthPhysics" />
+        <activity android:name=".TenthComplete.TenthQuizType.TenthPhysicsQuizType.TenthPhysicsFullBook" />
+        <activity android:name=".TenthComplete.TenthQuizType.TenthPhysicsQuizType.TenthPhysicsPastPaper" />
+        <activity android:name=".FirstYearComplete.FirstYearSubjects.FirstYearPhysics" />
+        <activity android:name=".FirstYearComplete.FirstYearQuizType.FirstYearPhysicsQuizType.FirstYearFullBook" />
+        <activity android:name=".FirstYearComplete.FirstYearQuizType.FirstYearPhysicsQuizType.FirstYearHalfBook" />
+        <activity android:name=".FirstYearComplete.FirstYearQuizType.FirstYearPhysicsQuizType.FirstYearPhysicsPastPaper" />
+        <activity android:name=".NinthSubjects.NinthEnglish" />
+        <activity android:name=".NinthSubjects.NinthComputer" />
+        <activity android:name=".NinthSubjects.NinthBiology" />
+        <activity android:name=".NinthSubjects.NinthMath" />
+        <activity android:name=".TenthComplete.TenthQuizType.TenthPhysicsQuizType.TenthPhysicsFirstHalf" />
+        <activity android:name=".TenthComplete.TenthQuizType.TenthPhysicsQuizType.TenthPhysicsSecondHalf" />
+        <activity android:name=".NinthQuizType.NinthBioQuizType.NinthBioFullBook" />
+        <activity android:name=".NinthQuizType.NinthBioQuizType.NinthBioFirstHalf" />
+        <activity android:name=".NinthQuizType.NinthBioQuizType.NinthBioSecondHalf" />
+        <activity android:name=".NinthQuizType.NinthBioQuizType.NinthBioPastPaper"></activity>
+    </application>
+
+</manifest>
